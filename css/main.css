@@ -294,3 +294,24 @@
         width:60px;
     }
 }
+
+@media screen and (max-width:387px){
+    .about .img-container{
+        height: 320px;
+    }
+    .about-food .price p,
+    .about-food .price b{
+        font-size: 16px;
+    }
+    .our-team h1{
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+    .client-section h1{
+        font-size: 30px;
+    }
+    .contents .content1{
+        font-size: 13px;
+        width: 50px;
+    }
+}
