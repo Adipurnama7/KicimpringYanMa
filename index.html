@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kicimpring YanMa</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body> 
+ <!-- ====================  ScrollTo Top button  =====================-->
+
+ <div class="scrollToTopButton">
+    <i class="fas fa-arrow-up"></i>
+ </div>
+
+    <header>
+        <h1 class="logo">
+  <!-- <i class="fa fa-utensils me-3"></i> --> <span style="color: white;">Kicimpring</span> YanMa </h1>
+
+        <nav>
+            <ul>
+                <li class="active"><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#menu">menu</a></li>
+                <!-- <li><a href="#our-team">Our Team</a></li> -->
+                <li><a href="#contact">Kontak</a></li>
+                <!-- <li class="booking"><a href="#booking">Pesan Sekarang</a></li> -->
+            </ul>
+        </nav>
+        <div class="bars">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+<!--      =========================== home section  ============================= -->
+    <main id="home" class="flex-center">
+            <div class="home_text">
+                <h1>KICIMPRING KEKINIAN</h1>
+                <br><p>Di setiap kepingan kicimpring, tersimpan cerita masa lalu yang diracik dengan selera masa kini.
+Renyahnya menyapa lidah, rasanya memeluk kenangan.
+Ini bukan sekadar camilan. Ini budaya yang bisa kamu nikmati di setiap gigitan.</p>
+              <button type="button" onclick="
+  const msg = 'Hallo kak, saya ingin pesan kicimpring';
+  const url = 'https://wa.me/6285318574442?text=' + encodeURIComponent(msg);
+  window.open(url, '_blank'); "> Pesan Sekarang
+</button>
+
+            </div>
+            <div class="main_img">
+                <img class="main_img1" src="img/kicimpring.png" alt="">
+            </div>
+    </main>
+
+<!-- ================================  Services section  -======================-->
+    <!-- <section class="service flex-center" id="service">
+        <div class="services">
+            <div class="number-1">
+                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                 <h5>Master Chefs</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+        <div class="services">
+            <div class="number-1">
+                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                <h5>Quality Food</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+        <div class="services">
+            <div class="number-1">
+                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                <h5>Online Order</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+        <div class="services">
+            <div class="number-1">
+                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                <h5>24/7 Service</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!--  =========================   About section ======================-->
+
+    <section class="about" id="about">
+        <div class="img-container">
+          <div class="images">
+            <div class="img1"><img src="./img/ABOUT1.jpg"></div>
+            <div class="img2"><img src="./img/ABOUT2.jpg"></div>
+          </div>
+          <div class="images2">
+            <div class="img1"><img src="./img/ABOUT3.jpg"></div>
+            <div class="img2"><img src="./img/ABOUT4.jpg"></div>
+          </div>
+        </div>
+        <div class="about-description">
+               <h4>Tentang Kami <span></span></h4>
+               <h1>Kicimpring  <i class="fa fa-3x fa-utensils text-primary mb-4"></i> YanMa</h1>
+               <p class="p1">Kecimpring ini lahir dari niat tulus membantu seorang bapak yang dulunya keliling menjajakan singkong. Sejak 2014, usaha rumahan ini tumbuh dari dapur sederhana menjadi produk camilan khas yang disukai banyak orang.</p>
+               <p class="p2">Dari kemasan bening tanpa label, kini kami hadir lebih profesional dengan standing pouch dan cita rasa yang tetap otentik. Kecimpring bukan sekadar camilan—ia adalah cerita, perjuangan, dan cinta keluarga</p>
+                <div class="experience">
+                    <div class="about-exp exp-two-section">
+                        <p class="exp-p">11</p>
+                        <p><span>Years of</span><br> Experience</p>
+                    </div>
+                    <!-- <div class="popular exp-two-section">
+                        <p class="exp-p">50</p>
+                        <p><span>Popular</span><br> Master Chefs</p>
+                    </div> -->
+                </div>
+                <div class="button">
+                    <button class="botton1">Pesan sekarang</button>
+                </div>
+        </div>
+    </section>
+ 
+<!--================================  menu section  =================================-->
+
+<!-- <section class="our-team" id="menu">
+    <h4>Menu</h4>
+    <h1 class="h-1">Varian Kicimpring Kekinian</h1>
+    <div class="member-list">
+        <div class="team-member">
+            <div class="team-img">
+                <img src="data:image/jpeg;base64,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" alt="Kicimpring Original">
+            </div>
+            <h5>Kicimpring Original</h5>
+            <p>Rasa gurih klasik, cocok untuk semua suasana.</p>
+            <a class="wa-order-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20pesan%20Kicimpring%20Original" target="_blank">
+                <button>Pesan Sekarang</button>
+            </a>
+        </div>
+        <div class="team-member">
+            <div class="team-img">
+                <img src="img/kicimpring2.jpg" alt="Kicimpring Pedas">
+            </div>
+            <h5>Kicimpring Pedas</h5>
+            <p>Pedasnya bikin nagih, cocok untuk pecinta rasa berani.</p>
+            <a class="wa-order-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20pesan%20Kicimpring%20Pedas" target="_blank">
+                <button>Pesan Sekarang</button>
+            </a>
+        </div>
+        <div class="team-member">
+            <div class="team-img">
+                <img src="img/kicimpring3.jpg" alt="Kicimpring Balado">
+            </div>
+            <h5>Kicimpring Balado</h5>
+            <p>Balado khas Minang, rasa unik dan menggoda.</p>
+            <a class="wa-order-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20pesan%20Kicimpring%20Balado" target="_blank">
+                <button>Pesan Sekarang</button>
+            </a>
+        </div>
+        <div class="team-member">
+            <div class="team-img">
+                <img src="img/kicimpring4.jpg" alt="Kicimpring Keju">
+            </div>
+            <h5>Kicimpring Keju</h5>
+            <p>Lezatnya keju, cocok untuk camilan modern.</p>
+            <a class="wa-order-btn" href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20pesan%20Kicimpring%20Keju" target="_blank">
+                <button>Pesan Sekarang</button>
+            </a>
+        </div>
+    </div>
+</section>
+  <section class="menu" id="menu">
+       <div class="menu-food">
+           <div class="food-menu">
+             <p>Food Menu</p>
+           </div>
+           <h1 class="h-1">Most Popular Items</h1>
+       </div>
+           <ul>
+               <li>
+                   <a class="filter active" data-filter=".breakfast">
+                    <i class="fa fa-coffee fa-2x text-primary"></i>
+                    <div class="item1">
+                        <small>Popular</small>
+                        <h5>Breakfast</h5>
+                    </div>
+                   </a>
+               </li>
+               <li>
+                <a class="filter" data-filter=".lunch">
+                  <i class="fa fa-hamburger fa-2x text-primary"></i>
+                 <div class="item1">
+                     <small>Special Lunch</small>
+                     <h5>Lunch</h5>
+                 </div>
+                </a>
+            </li>
+            <li>
+                <a class="filter" data-filter=".dinner">
+                  <i class="fa fa-utensils fa-2x text-primary"></i>
+                 <div class="item1">
+                     <small>Lovely</small>
+                     <h5>Dinner</h5>
+                 </div>
+                </a>
+            </li>
+           </ul>
+
+      <div class="list-items braekfast">
+        <div class="menu-list">
+            <div class="menu-1 breakfast">
+             <div class="list-img"><img src="img/menu-1.jpg"></div>
+             <div class="about-food">
+                 <div class="price">
+                    <p>Chicken Burger</p>
+                    <b>$115</b>
+                 </div>
+                 <span></span>
+                 <small>Lorem ipsum dolor sit amet consectetur.</small>
+             </div>
+            </div>
+            <div class="menu-1 breakfast dinner">
+             <div class="list-img"><img src="img/menu-2.jpg"></div>
+             <div class="about-food">
+                 <div class="price">
+                    <p>Chicken Burger</p>
+                    <b>$115</b>
+                 </div>
+                 <span></span>
+                 <small>Lorem ipsum dolor sit amet consectetur.</small>
+             </div>
+            </div>
+            <div class="menu-1 brackfast">
+             <div class="list-img"><img src="img/menu-3.jpg"></div>
+             <div class="about-food">
+                 <div class="price">
+                    <p>Chicken Burger</p>
+                    <b>$115</b>
+                 </div>
+                 <small>Lorem ipsum dolor sit amet consectetur.</small>
+             </div>
+            </div>
+            <div class="menu-1 brackfast dinner">
+             <div class="list-img"><img src="img/menu-4.jpg"></div>
+             <div class="about-food">
+                 <div class="price">
+                    <p>Chicken Burger</p>
+                    <b>$115</b>
+                 </div>
+                 <small>Lorem ipsum dolor sit amet consectetur.</small>
+               </div>
+              </div>
+            </div>
+ 
+            <div class="menu-list">
+             <div class="menu-1 lunch brakfast">
+              <div class="list-img"><img src="img/menu-5.jpg"></div>
+              <div class="about-food">
+                  <div class="price">
+                     <p>Chicken Burger</p>
+                     <b>$115</b>
+                  </div>
+                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+              </div>
+             </div>
+             <div class="menu-1 lunch breakfast dinner">
+              <div class="list-img"><img src="img/menu-6.jpg"></div>
+              <div class="about-food">
+                  <div class="price">
+                     <p>Chicken Burger</p>
+                     <b>$115</b>
+                  </div>
+                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+              </div>
+             </div>
+             <div class="menu-1 lunch breakfast">
+              <div class="list-img"><img src="img/menu-7.jpg"></div>
+              <div class="about-food">
+                  <div class="price">
+                     <p>Chicken Burger</p>
+                     <b>$115</b>
+                  </div>
+                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+              </div>
+             </div>
+             <div class="menu-1 lunch brackfast">
+              <div class="list-img"><img src="img/menu-8.jpg"></div>
+              <div class="about-food">
+                  <div class="price">
+                     <p>Chicken Burger</p>
+                     <b>$115</b>
+                  </div>
+                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+              </div>
+             </div>
+           </div>
+       </div>
+  </section> -->
+
+  <!-- ===================  Booking Section  ===================== -->
+
+  <!-- <section class="booking-section" id="booking">
+      <div class="video">
+        <button type="button" class="play-btn" data-sour="https://www.youtube.com/watch?v=0rojBGuDizA">
+            <i class="fas fa-play"></i>
+        </button>
+      </div>
+      <div class="reservation">
+          <h5>Reservation</h5>
+          <h1 class="h-1">Book a table online</h1>
+          <div class="email">
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Your Email">
+          </div>
+          <div class="data">
+              <input type="datetime" placeholder="Date & Time">
+              <select>
+                  <option>People 1</option>
+                  <option>People 2</option>
+                  <option>People 3</option>
+              </select> 
+          </div>
+          <textarea placeholder="Special Request"></textarea>
+          <button type="button" class="reserve-button">BOOK NOW</button>
+      </div>
+  </section> -->
+
+  <!--  ==================== our team ======================-->
+
+  <section class="our-team" id="menu">
+       <h4>Menu</h4>
+       <h1 class="h-1">Varian Kicimpring Kekinian</h1>
+       <div class="member-list">
+           <div class="team-member">
+               <div class="team-img">
+                   <img src="img/team-1.jpg" alt="Kicimpring Original">
+               </div>
+               <h5>Full Name</h5>
+               <p>Designation</p>
+               <div class="social-media">
+                <a href="https://wa.me/6285318574442?text=Halo%20saya%20ingin%20pesan%20Kicimpring" target="_blank">
+                    <button style="background-color:#cbcb0a;color:white;border:none;padding:8px 16px;border-radius:4px;cursor:pointer;">
+                        Pesan Sekarang
+                    </button>
+                </a>
+            </div>
+           </div>
+           <div class="team-member">
+            <div class="team-img">
+                <img src="img/team-2.jpg">
+            </div>
+            <h5>Full Name</h5>
+            <p>Designation</p>
+            <a href="https://wa.me/6285318574442?text=Halo%20saya%20ingin%20pesan%20Kicimpring" target="_blank">
+            <button style="background-color:#cbcb0a;color:white;border:none;padding:8px 16px;border-radius:4px;cursor:pointer;"> Pesan Sekarang</button>
+            </a>
+             </div>
+        <div class="team-member">
+            <div class="team-img">
+                <img src="img/team-3.jpg">
+            </div>
+            <h5>Full Name</h5>
+            <p>Designation</p>
+            <a href="https://wa.me/6285318574442?text=Halo%20saya%20ingin%20pesan%20Kicimpring" target="_blank">
+            <button style="background-color:#cbcb0a;color:white;border:none;padding:8px 16px;border-radius:4px;cursor:pointer;"> Pesan Sekarang</button>
+            </a>
+        </div>
+        <div class="team-member">
+            <div class="team-img">
+                <img src="img/team-4.jpg">
+            </div>
+            <h5>Full Name</h5>
+            <p>Designation</p>
+            <a href="https://wa.me/6285318574442?text=Halo%20saya%20ingin%20pesan%20Kicimpring" target="_blank">
+            <button style="background-color:#cbcb0a;color:white;border:none;padding:8px 16px;border-radius:4px;cursor:pointer;"> Pesan Sekarang</button>
+            </a>
+        </div>
+       </div>
+  </section>
+
+  <!--  ====================  client section  ====================-->
+<!-- 
+<section class="client-section">
+    <h4>Testimonial</h4>
+    <h1 class="h-1">Our Client Say!!!</h1>
+    <div class="client-causel">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                    <div class="swiper-img">
+                        <img src="img/testimonial-1.jpg" alt="">
+                        <div class="parag-1">
+                            <h5>Client Name</h5>
+                            <small>Profession</small>
+                        </div>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                    <div class="swiper-img">
+                        <img src="img/testimonial-1.jpg" alt="">
+                        <div class="parag-1">
+                            <h5>Client Name</h5>
+                            <small>Profession</small>
+                        </div>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                    <div class="swiper-img">
+                        <img src="img/testimonial-1.jpg" alt="">
+                        <div class="parag-1">
+                            <h5>Client Name</h5>
+                            <small>Profession</small>
+                        </div>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                    <div class="swiper-img">
+                        <img src="img/testimonial-1.jpg" alt="">
+                        <div class="parag-1">
+                            <h5>Client Name</h5>
+                            <small>Profession</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section> -->
+
+<!-- Tambahkan di bawah sebelum </body> -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper('.mySwiper', {
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 0,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
+</script> -->
+ <!--  ==============================    Footer section  ====================-->
+  <footer id="contact">
+      <div class="footer-contacts">
+          <div class="contacts-about">
+              <h4>Navbar <span></span></h4>
+               <p class="p-1"><i class="fas fa-angle-right"></i> Beranda</p>
+              <p class="p-1"><i class="fas fa-angle-right"></i> Tentang Kami</p>
+            <p class="p-1"><i class="fas fa-angle-right"></i> Menu</p>
+              <p class="p-1"><i class="fas fa-angle-right"></i> Kontak</p>
+          
+          </div>
+          <div class="contacts-about">
+              <h4>Contact <span></span></h4>
+             <p class="p-2">
+        <a href="https://maps.app.goo.gl/m6WZGtvnKDon2RTY6" target="_blank" style="color:inherit; text-decoration:none;">
+        <i class="fa fa-map-marker-alt me-3"></i>Kicimpring Yanma, Tanjungsari, Sumedang
+         </a> </p>
+              <p class="p-2">
+    <a href="tel:+6285318574442" style="color:inherit; text-decoration:none;">
+        <i class="fa fa-phone-alt me-3"></i>+6285318574442
+    </a>
+</p>
+              <div class="footer-icons">
+            <div class="icons-container">
+    <a href="https://wa.me/6285318574442" target="_blank" title="WhatsApp">
+        <i class="fab fa-whatsapp" style="color: #FFD600;"></i>
+    </a>
+</div>
+<div class="icons-container">
+    <a href="https://instagram.com/kicimpringyanma" target="_blank" title="Instagram">
+        <i class="fab fa-instagram" style="color: #FFD600;"></i>
+    </a>
+</div>
+<div class="icons-container">
+    <a href="https://www.tiktok.com/@yourusername" target="_blank" title="TikTok">
+        <i class="fab fa-tiktok" style="color: #FFD600;"></i>
+    </a>
+</div>
+<div class="icons-container">
+    <a href="https://shopee.co.id/kicimpringyanma?categoryId=100629&entryPoint=ShopByPDP&itemId=6999669069" target="_blank" title="Shopee">
+        <i class="fas fa-shopping-bag" style="color: #FFD600;"></i>
+    </a>
+</div>
+              </div>
+          </div>
+         
+          <div class="contacts-about">
+              <h4>Newsletter <span></span></h4>
+              <p class="p-4">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+        
+          </div>
+      </div>
+      <div class="footer-copy-right">
+        <div class="content-left">&copy; <a href="#">KKN kelompok 315</a>, All Right Reserved. 
+            Designed By <a href="https://htmlcodex.com">adipurnama</a></div>
+          <!-- <div class="contents">
+             <div class="content1">Home</div>
+             <div class="content1">Cookies</div>
+             <div class="content1">Help</div>
+             <div class="content1">FQAs</div>
+          </div> -->
+      </div>
+      <p></p>
+  </footer>
+ <script src="swiper-bundle.min.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
