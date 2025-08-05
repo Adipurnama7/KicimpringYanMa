@@ -344,3 +344,20 @@
         width: 28px;
     }
 }
+@media screen and (max-width: 430px) {
+    main .main_img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .main_img .main_img1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+main {
+    min-height: 100vh;
+    height: auto;
+}
