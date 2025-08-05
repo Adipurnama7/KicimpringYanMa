@@ -1330,11 +1330,16 @@ footer .footer-copy-right{
    height: 20px;
 }
 
+/* Hapus margin bawah pada booking-section dan margin atas pada footer */
+.booking-section {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
 
-
-
-
-
+footer {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 
 .play-btn {
   position: absolute;
@@ -1376,7 +1381,7 @@ footer .footer-copy-right{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500x;      /* Atur lebar sesuai kebutuhan, misal 400px */
+  width: 400x;      /* Atur lebar sesuai kebutuhan, misal 400px */
   height: 500px;     /* Atur tinggi sesuai kebutuhan, misal 250px */
   margin: auto;
   background: #000;
@@ -1451,12 +1456,76 @@ footer .footer-copy-right{
   z-index: 10;
 }
 
+.gallery-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 64px auto;
+  padding: 0 16px;
+  background: #fff;
+}
 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  max-width: 1200px;
+  width: 100%;
+}
 
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
 
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  max-height: 340px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
 
+.gallery-item:hover .gallery-img {
+  transform: scale(1.03);
+}
 
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 0 0 8px 8px;
+}
 
+.gallery-item:hover .gallery-caption {
+  opacity: 1;
+}
 
+/* Untuk gambar yang lebih lebar dari biasanya */
+.gallery-item.col-span-2 {
+  grid-column: span 2;
+}
 
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item.col-span-2 {
+    grid-column: span 1;
+  }
+}
 
