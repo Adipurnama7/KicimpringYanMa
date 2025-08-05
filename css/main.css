@@ -473,3 +473,12 @@ main {
   }
 
 }
+
+@media (max-width: 600px) {
+  .video-container {
+    width: 95vw;
+    height: 56vw; /* 16:9 aspect ratio */
+    min-height: 180px;
+    max-width: 100%;
+  }
+}

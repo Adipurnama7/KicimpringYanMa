@@ -300,18 +300,45 @@ Ini bukan sekadar camilan. Ini budaya yang bisa kamu nikmati di setiap gigitan.<
 
   <!-- ===================  Booking Section  ===================== -->
 
-  <section class="booking-section" id="booking">
-      <div class="video">
-        <button type="button" class="play-btn" data-sour="https://www.youtube.com/watch?v=0rojBGuDizA">
-            <i class="fas fa-play"></i>
-        </button>
-      </div>
-      <div class="reservation">
-          <h5>Produk</h5>
-          <h1 class="h-1">Kicimpring YanMa merupakan salasatu olahan pangan dari singkong yang di beri inovasi terbaru sehinnga memiliki rasa beragam, Nikmati sensasi gurih dan renyah dari Kicimpring Yanma, camilan khas Sumedang yang terbuat dari singkong lokal pilihan. Tersedia dalam berbagai rasa dan ukuran, cocok untuk teman ngopi, oleh-oleh, hingga stok camilan keluarga. </h1>
-          <br>
-      </div>
-  </section>
+<section class="booking-section" id="booking">
+  <div class="video-container">
+    <img src="img/kemasan.jpg" alt="Produk Kicimpring" class="produk-img">
+    <button type="button" class="play-btn" id="showVideoBtn">
+      <i class="fas fa-play"></i>
+    </button>
+  </div>
+
+  <div id="videoPopup">
+    <div class="video-popup-inner">
+      <button id="closeVideoBtn">&times;</button>
+      <video id="mainVideo" controls>
+        <source src="img/kicimpring1.mp4" type="video/mp4">
+        Browser Anda tidak mendukung pemutar video.
+      </video>
+    </div>
+  </div>
+
+  <div class="reservation">
+    <h5>Produk</h5>
+    <h1 class="h-1">
+      Kicimpring YanMa merupakan salasatu olahan pangan dari singkong yang diberi inovasi terbaru sehingga memiliki rasa beragam. Nikmati sensasi gurih dan renyah dari Kicimpring Yanma, camilan khas Sumedang yang terbuat dari singkong lokal pilihan. Tersedia dalam berbagai rasa dan ukuran, cocok untuk teman ngopi, oleh-oleh, hingga stok camilan keluarga.
+    </h1>
+  </div>
+</section>
+
+<script>
+document.getElementById('showVideoBtn').onclick = function() {
+  document.getElementById('videoPopup').style.display = 'flex';
+  document.getElementById('mainVideo').play();
+};
+document.getElementById('closeVideoBtn').onclick = function() {
+  document.getElementById('videoPopup').style.display = 'none';
+  document.getElementById('mainVideo').pause();
+  document.getElementById('mainVideo').currentTime = 0;
+};
+</script>
+
+
 
   <!--  ==================== our team ======================-->
 

@@ -1336,10 +1336,122 @@ footer .footer-copy-right{
 
 
 
+.play-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #FFD600;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 0 0 0 0 rgba(255,214,0,0.7);
+  animation: pulse 1.2s infinite;
+  transition: background 0.2s;
+}
+.play-btn:hover {
+  background: #ffe95c;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255,214,0,0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(255,214,0,0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255,214,0,0);
+  }
+}
 
 
 
+.video-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500x;      /* Atur lebar sesuai kebutuhan, misal 400px */
+  height: 500px;     /* Atur tinggi sesuai kebutuhan, misal 250px */
+  margin: auto;
+  background: #000;
+  overflow: hidden;     /* Agar konten tidak keluar dari container */
+}
 
+.produk-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #FFD600;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  z-index: 2;
+  transition: transform 0.3s;
+}
+
+.play-btn:hover {
+  transform: scale(1.1);
+}
+
+#videoPopup {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.video-popup-inner {
+  position: relative;
+  max-width: 90vw;
+  max-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-popup-inner video {
+  max-width: 100%;
+  max-height: 70vh;
+  background: #000;
+}
+
+#closeVideoBtn {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: #FFD600;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+}
 
 
 
