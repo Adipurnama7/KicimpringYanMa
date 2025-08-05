@@ -274,6 +274,32 @@
     .client-causel .swiper{
         width:100%;
      }
+     .logo {
+        font-size: 30px !important;
+        max-width: 80vw;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+        margin-left: 0 !important;
+        z-index: 2;
+        line-height: 1.1;
+    }
+    .logo span {
+        font-size: 30px !important;
+    }
+    .bars {
+        font-size: 26px !important;
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 3;
+        background: transparent;
+        border: none;
+        margin: 0 !important;
+        padding: 0;
+        display: block;
+    }
 }
 @media screen and (max-width:400px){
     .about .img-container{
@@ -345,26 +371,15 @@
         width: 28px;
     }
 }
-@media screen and (max-width: 430px) {
-    main .main_img {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-        padding: 0;
-    }
-    .main_img .main_img1 {
-        width: 100%;
-        height: auto;
-    }
-}
+
 
 main {
     min-height: 100vh;
     height: auto;
 }
 
-/* Fix layout di layar kecil (≤ 430px) */
-@media screen and (max-width: 430px) {
+
+@media screen and (max-width: 435px) {
     body, html {
         padding: 0;
         margin: 0;
@@ -379,8 +394,8 @@ main {
     }
 
     .logo {
-        font-size: 22px;
-        max-width: 65%;
+        font-size: 10px;
+        max-width: 50%;
         word-wrap: break-word;
     }
 
@@ -434,7 +449,7 @@ main {
 }
 
 /* Lebih kecil lagi (≤ 360px) */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
     .logo {
         font-size: 18px;
     }
