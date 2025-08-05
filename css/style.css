@@ -566,10 +566,10 @@ main .main_img{
    height: auto;
 }
 .booking-section .video{
-   width:50%;
+   width:60%;
    position: relative;
    min-height: 500px;
-   background-image: url(../img/video.jpg);
+   background-image: url(../img/kemasan.jpg);
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -624,7 +624,7 @@ main .main_img{
 .booking-section .reservation{
    display: flex;
    flex-direction: column;
-   width:50%;
+   width:25%;
    min-height: 500px;
    padding: 40px 40px 0 40px;
    background-color: var(--dark-color);
@@ -647,7 +647,7 @@ main .main_img{
    display: block;
 }
 .reservation h1{
-   font-size: 40px;
+   font-size: 20px;
    text-transform: capitalize;
    font-weight: 760;
    font-family: 'Nunito', sans-serif;
@@ -696,6 +696,8 @@ main .main_img{
 .data select{
    margin-left: 15px;
 }
+
+
 textarea{
    border-radius: 2px;
    border:none;
