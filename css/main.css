@@ -105,6 +105,19 @@
      footer .footer-contacts{
          gap: 40px;
      }
+     .bars {
+    font-size: 26px !important;
+    position: absolute;
+    right: 16px;
+    top: 80%;
+    transform: translateY(-30%);
+    z-index: 3;
+    background: transparent;
+    border: none;
+    margin: 0 !important;
+    padding: 0;
+    display: block;
+}
 }
 @media screen and (max-width:970px){
     .service{
@@ -159,6 +172,19 @@
         justify-content: center;
         margin: auto;
     }
+    .bars {
+    font-size: 26px !important;
+    position: absolute;
+    right: 16px;
+    top: 80%;
+    transform: translateY(-30%);
+    z-index: 3;
+    background: transparent;
+    border: none;
+    margin: 0 !important;
+    padding: 0;
+    display: block;
+}
 }
 @media screen and (max-width:880px){
     .reservation h1{
@@ -199,6 +225,19 @@
         margin-left: 0;
         margin-top: 15px;
      }
+     .bars {
+    font-size: 26px !important;
+    position: absolute;
+    right: 16px;
+    top: 80%;
+    transform: translateY(-30%);
+    z-index: 3;
+    background: transparent;
+    border: none;
+    margin: 0 !important;
+    padding: 0;
+    display: block;
+}
 }
 @media screen and (max-width:680px) {
     .service .services{
@@ -212,6 +251,19 @@
     .menu-food h1{
         font-size: 34px;
     }
+    .bars {
+    font-size: 26px !important;
+    position: absolute;
+    right: 16px;
+    top: 80%;
+    transform: translateY(-30%);
+    z-index: 3;
+    background: transparent;
+    border: none;
+    margin: 0 !important;
+    padding: 0;
+    display: block;
+}
 }
 @media screen and (max-width:580px){
     main .main_img{
@@ -246,6 +298,20 @@
          align-items: center;
          text-align: center;
      }
+
+     .bars {
+    font-size: 26px !important;
+    position: absolute;
+    right: 16px;
+    top: 80%;
+    transform: translateY(-30%);
+    z-index: 3;
+    background: transparent;
+    border: none;
+    margin: 0 !important;
+    padding: 0;
+    display: block;
+}
 
 }
 @media screen and (max-width:490px){
@@ -291,19 +357,21 @@
     .logo .yanma {
         color: #000 !important; /* "YanMa" jadi hitam di HP */
     }
-    .bars {
-        font-size: 26px !important;
-        position: absolute;
-        right: 8px;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 3;
-        background: transparent;
-        border: none;
-        margin: 0 !important;
-        padding: 0;
-        display: block;
-    }
+  .bars {
+    font-size: 26px !important;
+    position: absolute;
+    right: 16px;
+    top: 80%;
+    transform: translateY(-30%);
+    z-index: 3;
+    background: transparent;
+    border: none;
+    margin: 0 !important;
+    padding: 0;
+    display: block;
+}
+
+
 }
 @media screen and (max-width:400px){
     .about .img-container{
