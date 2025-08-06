@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-   --main-color: #f4f428ff;
+   --main-color: #dab94d;
    --light-color: #F1F8FF;
    --dark-color: #0F172B;
    --black:  #0F172B;
@@ -95,7 +95,7 @@ header .bars{
    width:42px;
    height: 36px;
    cursor: pointer;
-   border:3px solid var(--main-color);
+   border:3px solid var(--black);
    border-radius: 6px;
    display:none;
    z-index: 999;
@@ -106,7 +106,7 @@ header .bars div{
     height: 3px;
     margin-bottom: 5px;
     border-radius: 7px;
-    background-color: var(--main-color);
+    background-color: var(--black);
     transition: all 0.3s ease;
 }
 header > nav > ul{
@@ -176,7 +176,7 @@ main .home_text h1{
 } 
 main .home_text p{
    color:var(--light-color);
-   max-width:6000px;
+   max-width:8000px;
    margin:5px px 0 auto;
 }
 main .home_text button{
@@ -647,7 +647,7 @@ main .main_img{
    display: block;
 }
 .reservation h1{
-   font-size: 20px;
+   font-size: 16px;
    text-transform: capitalize;
    font-weight: 760;
    font-family: 'Nunito', sans-serif;
@@ -1476,6 +1476,7 @@ footer {
 .gallery-item {
   position: relative;
   overflow: hidden;
+
   background: #fff;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
@@ -1528,4 +1529,3 @@ footer {
     grid-column: span 1;
   }
 }
-

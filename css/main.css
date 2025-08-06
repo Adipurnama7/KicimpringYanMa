@@ -11,7 +11,7 @@
 }
 @media screen and (max-width:1020px){
     header{
-        background-color: #c6a70dff;
+        background-color: #ae9127b1;
         /* background-color: #0F172B; */
         padding:0;
     }
@@ -145,7 +145,7 @@
          width: 100%;
      }
      .reservation h1{
-         font-size: 20px;
+         font-size: 15px;
      }
      .our-team .member-list{
         padding:0 5%;
@@ -162,8 +162,8 @@
 }
 @media screen and (max-width:880px){
     .reservation h1{
-        line-height: 40px;
-        font-size: 20px;
+        line-height: 30px;
+        font-size: 15px;
     }
 }
 @media screen and (max-width:760px){
@@ -286,6 +286,10 @@
     }
     .logo span {
         font-size: 30px !important;
+        color: #fff !important; /* "Kicimpring" tetap putih */
+    }
+    .logo .yanma {
+        color: #000 !important; /* "YanMa" jadi hitam di HP */
     }
     .bars {
         font-size: 26px !important;
