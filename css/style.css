@@ -172,13 +172,15 @@ main .home_text h1{
    line-height: 75px;
    margin-top:-20px;
    font-weight: 800;
-   font-family:'Nunito', sans-serif;;
+   font-family:'Nunito', sans-serif;
+    text-align: center;
 } 
 main .home_text p{
    color:var(--light-color);
    max-width:8000px;
    margin:5px px 0 auto;
-   font-size: 20px;
+   font-size: 17px;
+    text-align: justify
 }
 main .home_text button{
    width:220px;
@@ -1055,6 +1057,7 @@ footer .footer-contacts {
 
 .p-2 i {
   margin-right: 15px;
+  
 }
 
 .contacts-about .footer-icons {
@@ -1097,6 +1100,7 @@ footer .footer-contacts {
   font-size: 15px;
   line-height: 25px;
   margin-bottom: 15px;
+   text-align: justify;
 }
 
 .contacts-about .footer-email {
@@ -1232,8 +1236,9 @@ footer .footer-contacts{
    margin: 5px 0;
    font-family: 'Nunito', sans-serif;
 }
-.p-2 i{
+.p-2 {
    margin-right: 15px;
+   text-align: left;
 }
 .contacts-about .footer-icons{
    display: flex;
