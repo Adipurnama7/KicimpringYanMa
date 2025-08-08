@@ -540,7 +540,8 @@ main {
     font-size: 14px;
     line-height: 1.2;
     word-break: keep-all;
-     text-align: justify;
+     text-align: center;
+
   }
   
 }
@@ -565,7 +566,7 @@ main {
     }
       .home_text h1 {
     font-size: 14px;
-     text-align: justify;
+     text-align: center;
   }
 
 }
