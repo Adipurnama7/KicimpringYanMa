@@ -370,7 +370,11 @@
     padding: 0;
     display: block;
 }
-
+ .images2 .img2 img {
+      width: 95%;     /* penuh */
+      height: 160px;   /* dipendekin biar proporsional */
+      object-fit: cover;
+   }
 
 }
 @media screen and (max-width:400px){
@@ -395,6 +399,11 @@
         font-size: 14px;
         width:60px;
     }
+     .images2 .img2 img {
+      width: 95%;     /* penuh */
+      height: 160px;   /* dipendekin biar proporsional */
+      object-fit: cover;
+   }
 }
 
 @media screen and (max-width:387px){
@@ -423,6 +432,11 @@
     .logo span {
         font-size: 30px !important; /* pastikan span juga ikut kecil */
     }
+     .images2 .img2 img {
+      width: 95%;     /* penuh */
+      height: 160px;   /* dipendekin biar proporsional */
+      object-fit: cover;
+   }
 }
 
 @media screen and (max-width:340px){
@@ -507,8 +521,13 @@ main {
 
     button {
         width: auto;
-        max-width: 90%;
-        margin-top: 24px;
+        max-width: 100%;
+        margin-top: 5px;
+    }
+     button {
+        width: auto;
+        max-width: 100%;
+        margin-top: 5px;
     }
 
     button a {
@@ -517,7 +536,7 @@ main {
         display: inline-block;
     }
      .home_text h1 {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.2;
     word-break: keep-all;
   }
@@ -530,7 +549,7 @@ main {
     }
 
     main h1 {
-        font-size: 28px;
+        font-size: 14px;
     }
 
     .home_text p {
@@ -541,7 +560,7 @@ main {
         font-size: 15px;
     }
       .home_text h1 {
-    font-size: 24px;
+    font-size: 14px;
   }
 
 }

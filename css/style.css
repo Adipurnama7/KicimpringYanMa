@@ -168,7 +168,7 @@ main .home_text{
 }
 main .home_text h1{
    color:var(--light-color);
-   font-size: 75px;
+   font-size: 60px;
    line-height: 75px;
    margin-top:-20px;
    font-weight: 800;
@@ -326,7 +326,7 @@ main .main_img{
 }
 .images2 .img2 img{
    width:95%;
-   height: 260px;
+   height: 270px;
 }
 
 .about .about-description{
