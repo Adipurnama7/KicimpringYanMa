@@ -173,7 +173,7 @@ main .home_text h1{
    margin-top:-20px;
    font-weight: 800;
    font-family:'Nunito', sans-serif;
-  
+    text-align: justify;
 } 
 main .home_text p{
    color:var(--light-color);
@@ -765,27 +765,29 @@ textarea{
    margin-bottom: 40px;
    color: var(--dark-color);
 }
-.our-team .member-list{
+.our-team .member-list {
    display: flex;
-   --gap:1.2rem;
-   margin-left: calc(-1 * var(--gap));
+   flex-wrap: wrap; /* biar item turun kalau sudah penuh */
+   gap: 1.2rem; /* ganti --gap biar lebih rapih */
    align-items: center;
-   justify-content: space-between;
-   width:100%;
-   padding:0 8%;
-   height: auto;
+   justify-content: center;
+   width: 100%;
+   padding: 0 8%;
 }
-.member-list .team-member{
-   margin-left: var(--gap);
+
+.member-list .team-member {
+   flex: 1 1 calc(20% - 1.2rem); /* 5 kolom */
+   max-width: calc(20% - 1.2rem);
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   box-shadow: 0 5px 25px rgba(1 1 1 /15%);
-   width:250px;
+   box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15);
+   width: auto; /* biar ikut hitungan flex */
    height: 345px;
    cursor: pointer;
 }
+
 .team-member .team-img{
    overflow: hidden;
    margin: 20px 10px 15px 10px;
